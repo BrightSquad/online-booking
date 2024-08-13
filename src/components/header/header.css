@@ -1,0 +1,84 @@
+.header{
+    background-color: #330099;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headercontainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+  
+}
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+   
+}
+.headerListItem{
+    display: Flex;
+    align-items: center;
+    gap: 10px
+}
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    
+
+}
+
+.headerDes{
+    margin: 24px 0px;
+}
+.headerBtn{
+    background-color: #ff8000;
+    color: aliceblue;
+    font-weight: 600;
+    border:none;
+    padding: 10px;
+    cursor: pointer;
+     transition: background-color 0.3s;
+}
+.headerSearch{
+    height: -50px;
+    background-color: #ff8000;
+    border: 3px solid white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position:absolute;
+    bottom: -50px;
+    width: 100%;
+    max-width: 1050px;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+
+}
+.headerSearch{
+    border: none;
+    outline: none;
+
+}
+.headerBtn{
+    border-radius: 20px;
+} 
+ 
+.datePickerInput{
+    position:relative;
+    top:50px;
+    padding-top: 10%;
+    margin-top: auto;
+}
+
+ 
+
+  
